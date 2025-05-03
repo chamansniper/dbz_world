@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 <title>Tis is my title</title>
+
+
 <head><head>
 <body >
-    <img src="https://wallpapers.com/images/high/harry-facing-voldemort-harry-potter-desktop-zhfze8qi18vkmc6e.webp" width="150" height="100">
+    
+    
+    <br>
+    <img src="https://wallpapers.com/images/high/harry-facing-voldemort-harry-potter-desktop-zhfze8qi18vkmc6e.webp" width="150" height="100" style="position: absolute; top: 100px; right: 500px;">
     
     <style>
    
@@ -24,9 +29,33 @@
             background-color: green;
         }
         
+
         button:hover{
             background-color: rgb(38, 118, 111);
             border: 2px dashed red;
+        }
+        .line{
+            text-align: center;
+        }
+        .box{
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            height: 400px;
+            width: 400px;
+            border: 1px dotted red;
+            background-color: cadetblue;
+            
+        }
+        .conatiner{
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;  
+            /* margin-left: 100px; */
+            /* grid-template-columns: 1fr 3fr 4fr; */
+            
+            flex-direction: row;
+            gap: 50px;
         }
            
     </style>
@@ -34,9 +63,20 @@
 <h1 >welocme to hogwarts </h1>
 <h2>The magic school </h>
 <p>harry potter main charracter name </p>
-<div>
-   
-</div>
+
+    <img src="https://wallpapers.com/images/high/great-hall-harry-potter-desktop-zjejeshp84mf1tc7.webp" width="150" height="100">
+
+
+
+    <div class="conatiner">
+        <div class="box">Harry Potter is a young wizard who learns on his 11th birthday that he is famous in the wizarding world after surviving an attack by the evil wizard Lord Voldemort. He attends Hogwarts School of Witchcraft and Wizardry, where he makes friends, learns about magic, and discovers more about his past and Voldemort's plot to return to power. Harry faces numerous challenges and dangers as he grows into a powerful wizard, ultimately leading him to a confrontation with Voldemort to protect the wizarding world. </div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    
+    
+
+
 </body>
 </html>
 <link rel="stylesheet" href="harry.css">
@@ -53,3 +93,4 @@
 <input type="password">
 <button>hover me</button>
 </ol>
+
